@@ -2,9 +2,12 @@ import Parse from 'parse/node.js';
 import axios from 'axios'
 import { getChainId } from './getScanLink.js';
 import cron from 'node-cron'
+import { createRequire } from 'module';
 
-Parse.initialize("EjOopvf32TxOBNafKLhHC50tvp6AGPms9b3QGNV2", "jtFWiFHOxNmb8zujKIFJtwj0UgZTLeRofqj8WCza");
-Parse.serverURL = "https://parseapi.back4app.com/"; 
+const require = createRequire(import.meta.url);
+
+Parse.initialize("JOOSAPPS", "K9S3H8I7T0IG6A5R4B2H1A$313#414");
+Parse.serverURL = 'http://139.84.133.61:1337/parse' 
 const MyTrades = Parse.Object.extend("MyTrades");
 
 const getQuoteForToken = async(chainName,pairAddress)=>{

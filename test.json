@@ -1,0 +1,118 @@
+{
+    "code": 1,
+    "message": "OK",
+    "result": {
+        "0x8d9af2ddeca3caba8f480b60d1c73717ab60724c": {
+            "anti_whale_modifiable": "0",
+            "buy_tax": "0",
+            "can_take_back_ownership": "0",
+            "cannot_buy": "0",
+            "cannot_sell_all": "0",
+            "creator_address": "0x7048b7d650816eac47c9b5aef4253046f55dc670",
+            "creator_balance": "0",
+            "creator_percent": "0.000000",
+            "dex": [
+                {
+                    "name": "UniswapV2",
+                    "liquidity": "10860.43152051",
+                    "pair": "0x0b6ec52a02f550866335c0c604cd6a3399169c57"
+                }
+            ],
+            "external_call": "0",
+            "hidden_owner": "0",
+            "holder_count": "6",
+            "holders": [
+                {
+                    "address": "0x0b6ec52a02f550866335c0c604cd6a3399169c57",
+                    "tag": "UniswapV2",
+                    "is_contract": 1,
+                    "balance": "83072846002.379042957942490253",
+                    "percent": "0.830728460023790429",
+                    "is_locked": 0
+                },
+                {
+                    "address": "0x3ddfa8ec3052539b6c9549f12cea2c295cff5296",
+                    "tag": "",
+                    "is_contract": 0,
+                    "balance": "8696795607.013328435787186288",
+                    "percent": "0.086967956070133284",
+                    "is_locked": 0
+                },
+                {
+                    "address": "0x6b75d8af000000e20b7a7ddf000ba900b4009a80",
+                    "tag": "",
+                    "is_contract": 1,
+                    "balance": "18.446744073709551616",
+                    "percent": "0.000000000184467440",
+                    "is_locked": 0
+                },
+                {
+                    "address": "0x6b75d8af000000e20b7a7ddf000ba900b4009a80",
+                    "tag": "",
+                    "is_contract": 1,
+                    "balance": "18.446744073709551616",
+                    "percent": "0.000000000184467440",
+                    "is_locked": 0
+                },
+                {
+                    "address": "0x6b75d8af000000e20b7a7ddf000ba900b4009a80",
+                    "tag": "",
+                    "is_contract": 1,
+                    "balance": "18.446744073709551616",
+                    "percent": "0.000000000184467440",
+                    "is_locked": 0
+                },
+                {
+                    "address": "0x6b75d8af000000e20b7a7ddf000ba900b4009a80",
+                    "tag": "",
+                    "is_contract": 1,
+                    "balance": "18.446744073709551616",
+                    "percent": "0.000000000184467440",
+                    "is_locked": 0
+                }
+            ],
+            "honeypot_with_same_creator": "0",
+            "is_anti_whale": "0",
+            "is_blacklisted": "0",
+            "is_honeypot": "0",
+            "is_in_dex": "1",
+            "is_mintable": "0",
+            "is_open_source": "1",
+            "is_proxy": "0",
+            "is_whitelisted": "0",
+            "lp_holder_count": "2",
+            "lp_holders": [
+                {
+                    "address": "0x000000000000000000000000000000000000dead",
+                    "tag": "",
+                    "is_contract": 0,
+                    "balance": "707106.781186547524399844",
+                    "percent": "0.999999999999999999",
+                    "is_locked": 1
+                },
+                {
+                    "address": "0x0000000000000000000000000000000000000000",
+                    "tag": "Null Address",
+                    "is_contract": 0,
+                    "balance": "0.000000000000001",
+                    "percent": "0.000000000000000000",
+                    "is_locked": 1
+                }
+            ],
+            "lp_total_supply": "707106.781186547524400844",
+            "owner_address": "0x0000000000000000000000000000000000000000",
+            "owner_balance": "0",
+            "owner_change_balance": "0",
+            "owner_percent": "0.000000",
+            "personal_slippage_modifiable": "0",
+            "selfdestruct": "0",
+            "sell_tax": "0",
+            "slippage_modifiable": "0",
+            "token_name": "Sakura Inu",
+            "token_symbol": "Sakura",
+            "total_supply": "100000000000",
+            "trading_cooldown": "0",    
+            "transfer_pausable": "0"
+        }
+    }
+}
